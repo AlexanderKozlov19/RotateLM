@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CAFB9D2031C35400EC39B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFB9C2031C35400EC39B3 /* AppDelegate.m */; };
+		84CAFBA02031C35400EC39B3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFB9F2031C35400EC39B3 /* GameViewController.m */; };
+		84CAFBA22031C35400EC39B3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFBA12031C35400EC39B3 /* art.scnassets */; };
+		84CAFBA42031C35400EC39B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFBA32031C35400EC39B3 /* Assets.xcassets */; };
+		84CAFBA72031C35500EC39B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CAFBA52031C35500EC39B3 /* Main.storyboard */; };
+		84CAFBAA2031C35500EC39B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBA92031C35500EC39B3 /* main.m */; };
+		84CAFBB52031C35500EC39B3 /* RotateLMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBB42031C35500EC39B3 /* RotateLMTests.m */; };
+		84CAFBC02031C35500EC39B3 /* RotateLMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBBF2031C35500EC39B3 /* RotateLMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CAFBB12031C35500EC39B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CAFB902031C35400EC39B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CAFB972031C35400EC39B3;
+			remoteInfo = RotateLM;
+		};
+		84CAFBBC2031C35500EC39B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CAFB902031C35400EC39B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CAFB972031C35400EC39B3;
+			remoteInfo = RotateLM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CAFB982031C35400EC39B3 /* RotateLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CAFB9B2031C35400EC39B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CAFB9C2031C35400EC39B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CAFB9E2031C35400EC39B3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		84CAFB9F2031C35400EC39B3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		84CAFBA12031C35400EC39B3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		84CAFBA32031C35400EC39B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CAFBA62031C35500EC39B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CAFBA82031C35500EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CAFBA92031C35500EC39B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CAFBAB2031C35500EC39B3 /* RotateLM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RotateLM.entitlements; sourceTree = "<group>"; };
+		84CAFBB02031C35500EC39B3 /* RotateLMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateLMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CAFBB42031C35500EC39B3 /* RotateLMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateLMTests.m; sourceTree = "<group>"; };
+		84CAFBB62031C35500EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CAFBBB2031C35500EC39B3 /* RotateLMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateLMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CAFBBF2031C35500EC39B3 /* RotateLMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateLMUITests.m; sourceTree = "<group>"; };
+		84CAFBC12031C35500EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CAFB952031C35400EC39B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBAD2031C35500EC39B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBB82031C35500EC39B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CAFB8F2031C35400EC39B3 = {
+			isa = PBXGroup;
+			children = (
+				84CAFB9A2031C35400EC39B3 /* RotateLM */,
+				84CAFBB32031C35500EC39B3 /* RotateLMTests */,
+				84CAFBBE2031C35500EC39B3 /* RotateLMUITests */,
+				84CAFB992031C35400EC39B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CAFB992031C35400EC39B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFB982031C35400EC39B3 /* RotateLM.app */,
+				84CAFBB02031C35500EC39B3 /* RotateLMTests.xctest */,
+				84CAFBBB2031C35500EC39B3 /* RotateLMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CAFB9A2031C35400EC39B3 /* RotateLM */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFB9B2031C35400EC39B3 /* AppDelegate.h */,
+				84CAFB9C2031C35400EC39B3 /* AppDelegate.m */,
+				84CAFB9E2031C35400EC39B3 /* GameViewController.h */,
+				84CAFB9F2031C35400EC39B3 /* GameViewController.m */,
+				84CAFBA12031C35400EC39B3 /* art.scnassets */,
+				84CAFBA32031C35400EC39B3 /* Assets.xcassets */,
+				84CAFBA52031C35500EC39B3 /* Main.storyboard */,
+				84CAFBA82031C35500EC39B3 /* Info.plist */,
+				84CAFBA92031C35500EC39B3 /* main.m */,
+				84CAFBAB2031C35500EC39B3 /* RotateLM.entitlements */,
+			);
+			path = RotateLM;
+			sourceTree = "<group>";
+		};
+		84CAFBB32031C35500EC39B3 /* RotateLMTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFBB42031C35500EC39B3 /* RotateLMTests.m */,
+				84CAFBB62031C35500EC39B3 /* Info.plist */,
+			);
+			path = RotateLMTests;
+			sourceTree = "<group>";
+		};
+		84CAFBBE2031C35500EC39B3 /* RotateLMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFBBF2031C35500EC39B3 /* RotateLMUITests.m */,
+				84CAFBC12031C35500EC39B3 /* Info.plist */,
+			);
+			path = RotateLMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CAFB972031C35400EC39B3 /* RotateLM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CAFBC42031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLM" */;
+			buildPhases = (
+				84CAFB942031C35400EC39B3 /* Sources */,
+				84CAFB952031C35400EC39B3 /* Frameworks */,
+				84CAFB962031C35400EC39B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateLM;
+			productName = RotateLM;
+			productReference = 84CAFB982031C35400EC39B3 /* RotateLM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CAFBAF2031C35500EC39B3 /* RotateLMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CAFBC72031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLMTests" */;
+			buildPhases = (
+				84CAFBAC2031C35500EC39B3 /* Sources */,
+				84CAFBAD2031C35500EC39B3 /* Frameworks */,
+				84CAFBAE2031C35500EC39B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CAFBB22031C35500EC39B3 /* PBXTargetDependency */,
+			);
+			name = RotateLMTests;
+			productName = RotateLMTests;
+			productReference = 84CAFBB02031C35500EC39B3 /* RotateLMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CAFBBA2031C35500EC39B3 /* RotateLMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CAFBCA2031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLMUITests" */;
+			buildPhases = (
+				84CAFBB72031C35500EC39B3 /* Sources */,
+				84CAFBB82031C35500EC39B3 /* Frameworks */,
+				84CAFBB92031C35500EC39B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CAFBBD2031C35500EC39B3 /* PBXTargetDependency */,
+			);
+			name = RotateLMUITests;
+			productName = RotateLMUITests;
+			productReference = 84CAFBBB2031C35500EC39B3 /* RotateLMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CAFB902031C35400EC39B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = eCozy;
+				TargetAttributes = {
+					84CAFB972031C35400EC39B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84CAFBAF2031C35500EC39B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CAFB972031C35400EC39B3;
+					};
+					84CAFBBA2031C35500EC39B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CAFB972031C35400EC39B3;
+					};
+				};
+			};
+			buildConfigurationList = 84CAFB932031C35400EC39B3 /* Build configuration list for PBXProject "RotateLM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CAFB8F2031C35400EC39B3;
+			productRefGroup = 84CAFB992031C35400EC39B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CAFB972031C35400EC39B3 /* RotateLM */,
+				84CAFBAF2031C35500EC39B3 /* RotateLMTests */,
+				84CAFBBA2031C35500EC39B3 /* RotateLMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CAFB962031C35400EC39B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAFBA72031C35500EC39B3 /* Main.storyboard in Resources */,
+				84CAFBA42031C35400EC39B3 /* Assets.xcassets in Resources */,
+				84CAFBA22031C35400EC39B3 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBAE2031C35500EC39B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBB92031C35500EC39B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CAFB942031C35400EC39B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAFBA02031C35400EC39B3 /* GameViewController.m in Sources */,
+				84CAFBAA2031C35500EC39B3 /* main.m in Sources */,
+				84CAFB9D2031C35400EC39B3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBAC2031C35500EC39B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAFBB52031C35500EC39B3 /* RotateLMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CAFBB72031C35500EC39B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CAFBC02031C35500EC39B3 /* RotateLMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CAFBB22031C35500EC39B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CAFB972031C35400EC39B3 /* RotateLM */;
+			targetProxy = 84CAFBB12031C35500EC39B3 /* PBXContainerItemProxy */;
+		};
+		84CAFBBD2031C35500EC39B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CAFB972031C35400EC39B3 /* RotateLM */;
+			targetProxy = 84CAFBBC2031C35500EC39B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CAFBA52031C35500EC39B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CAFBA62031C35500EC39B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CAFBC22031C35500EC39B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84CAFBC32031C35500EC39B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84CAFBC52031C35500EC39B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RotateLM/RotateLM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84CAFBC62031C35500EC39B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RotateLM/RotateLM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84CAFBC82031C35500EC39B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateLM.app/Contents/MacOS/RotateLM";
+			};
+			name = Debug;
+		};
+		84CAFBC92031C35500EC39B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateLM.app/Contents/MacOS/RotateLM";
+			};
+			name = Release;
+		};
+		84CAFBCB2031C35500EC39B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotateLM;
+			};
+			name = Debug;
+		};
+		84CAFBCC2031C35500EC39B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GQFGK5478M;
+				INFOPLIST_FILE = RotateLMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotateLM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CAFB932031C35400EC39B3 /* Build configuration list for PBXProject "RotateLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CAFBC22031C35500EC39B3 /* Debug */,
+				84CAFBC32031C35500EC39B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CAFBC42031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CAFBC52031C35500EC39B3 /* Debug */,
+				84CAFBC62031C35500EC39B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CAFBC72031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CAFBC82031C35500EC39B3 /* Debug */,
+				84CAFBC92031C35500EC39B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CAFBCA2031C35500EC39B3 /* Build configuration list for PBXNativeTarget "RotateLMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CAFBCB2031C35500EC39B3 /* Debug */,
+				84CAFBCC2031C35500EC39B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CAFB902031C35400EC39B3 /* Project object */;
+}

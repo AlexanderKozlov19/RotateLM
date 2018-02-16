@@ -15,6 +15,10 @@
 		84CAFBAA2031C35500EC39B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBA92031C35500EC39B3 /* main.m */; };
 		84CAFBB52031C35500EC39B3 /* RotateLMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBB42031C35500EC39B3 /* RotateLMTests.m */; };
 		84CAFBC02031C35500EC39B3 /* RotateLMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBBF2031C35500EC39B3 /* RotateLMUITests.m */; };
+		84CAFBD1203330BF00EC39B3 /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84CAFBCF203330BE00EC39B3 /* LeapObjectiveC.mm */; };
+		84E22CA12033323D000080AE /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E22CA02033323D000080AE /* libLeap.dylib */; };
+		84E22CA72033381A000080AE /* LeapListenerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E22CA62033381A000080AE /* LeapListenerClass.m */; };
+		84E22CAD203339F7000080AE /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E22CA02033323D000080AE /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84E22CAC203339EE000080AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				84E22CAD203339F7000080AE /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		84CAFB982031C35400EC39B3 /* RotateLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CAFB9B2031C35400EC39B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +69,13 @@
 		84CAFBBB2031C35500EC39B3 /* RotateLMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateLMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CAFBBF2031C35500EC39B3 /* RotateLMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateLMUITests.m; sourceTree = "<group>"; };
 		84CAFBC12031C35500EC39B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CAFBCD203330BD00EC39B3 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		84CAFBCE203330BE00EC39B3 /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapObjectiveC.h; sourceTree = "<group>"; };
+		84CAFBCF203330BE00EC39B3 /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LeapObjectiveC.mm; sourceTree = "<group>"; };
+		84CAFBD0203330BE00EC39B3 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		84E22CA02033323D000080AE /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = RotateLM/LeapMotion/libLeap.dylib; sourceTree = "<group>"; };
+		84E22CA52033381A000080AE /* LeapListenerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeapListenerClass.h; path = LeapMotion/LeapListenerClass.h; sourceTree = "<group>"; };
+		84E22CA62033381A000080AE /* LeapListenerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LeapListenerClass.m; path = LeapMotion/LeapListenerClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E22CA12033323D000080AE /* libLeap.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,7 @@
 				84CAFBB32031C35500EC39B3 /* RotateLMTests */,
 				84CAFBBE2031C35500EC39B3 /* RotateLMUITests */,
 				84CAFB992031C35400EC39B3 /* Products */,
+				84E22C9F2033323D000080AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +128,13 @@
 		84CAFB9A2031C35400EC39B3 /* RotateLM */ = {
 			isa = PBXGroup;
 			children = (
+				84CAFBD2203330C300EC39B3 /* LeapMotion */,
 				84CAFB9B2031C35400EC39B3 /* AppDelegate.h */,
 				84CAFB9C2031C35400EC39B3 /* AppDelegate.m */,
 				84CAFB9E2031C35400EC39B3 /* GameViewController.h */,
 				84CAFB9F2031C35400EC39B3 /* GameViewController.m */,
+				84E22CA52033381A000080AE /* LeapListenerClass.h */,
+				84E22CA62033381A000080AE /* LeapListenerClass.m */,
 				84CAFBA12031C35400EC39B3 /* art.scnassets */,
 				84CAFBA32031C35400EC39B3 /* Assets.xcassets */,
 				84CAFBA52031C35500EC39B3 /* Main.storyboard */,
@@ -134,6 +163,25 @@
 			path = RotateLMUITests;
 			sourceTree = "<group>";
 		};
+		84CAFBD2203330C300EC39B3 /* LeapMotion */ = {
+			isa = PBXGroup;
+			children = (
+				84CAFBCD203330BD00EC39B3 /* Leap.h */,
+				84CAFBD0203330BE00EC39B3 /* LeapMath.h */,
+				84CAFBCE203330BE00EC39B3 /* LeapObjectiveC.h */,
+				84CAFBCF203330BE00EC39B3 /* LeapObjectiveC.mm */,
+			);
+			path = LeapMotion;
+			sourceTree = "<group>";
+		};
+		84E22C9F2033323D000080AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E22CA02033323D000080AE /* libLeap.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +192,7 @@
 				84CAFB942031C35400EC39B3 /* Sources */,
 				84CAFB952031C35400EC39B3 /* Frameworks */,
 				84CAFB962031C35400EC39B3 /* Resources */,
+				84E22CAC203339EE000080AE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -202,6 +251,11 @@
 					84CAFB972031C35400EC39B3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					84CAFBAF2031C35500EC39B3 = {
 						CreatedOnToolsVersion = 9.2;
@@ -267,7 +321,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E22CA72033381A000080AE /* LeapListenerClass.m in Sources */,
 				84CAFBA02031C35400EC39B3 /* GameViewController.m in Sources */,
+				84CAFBD1203330BF00EC39B3 /* LeapObjectiveC.mm in Sources */,
 				84CAFBAA2031C35500EC39B3 /* main.m in Sources */,
 				84CAFB9D2031C35400EC39B3 /* AppDelegate.m in Sources */,
 			);
@@ -423,12 +479,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RotateLM/RotateLM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GQFGK5478M;
 				INFOPLIST_FILE = RotateLM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RotateLM/LeapMotion",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -438,12 +499,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = RotateLM/RotateLM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GQFGK5478M;
 				INFOPLIST_FILE = RotateLM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RotateLM/LeapMotion",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = eCozy.RotateLM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

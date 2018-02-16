@@ -7,6 +7,8 @@
 //
 
 #import <SceneKit/SceneKit.h>
+#import "LeapListenerClass.h"
+
 
 @interface GameViewController : NSViewController
 

@@ -22,7 +22,7 @@
     [super viewDidLoad];
     
     // create a new scene
-    SCNScene *scene = [SCNScene sceneNamed:@"art.scnassets/TIE2.scn"];
+    SCNScene *scene = [SCNScene sceneNamed:@"art.scnassets/TIE3.scn"];
     
     /* // create and add a camera to the scene
     SCNNode *cameraNode = [SCNNode node];

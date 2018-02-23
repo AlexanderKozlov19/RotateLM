@@ -309,15 +309,15 @@
                 //[node runAction:[SCNAction rotateByX:0.0 y:-1 z:0 duration:1]];
                 break;
                 
-            case 1:
+            case 2:
                 if ( value > 0 )
                     [node runAction:[SCNAction rotateByAngle:moveDiscreet aroundAxis:SCNVector3Make(0, 1, 0) duration:0.1]];//:0.0 y:1 z:0 duration:1]];
                 else
                     [node runAction:[SCNAction rotateByAngle:-moveDiscreet aroundAxis:SCNVector3Make(0, 1, 0) duration:0.1]];
                 break;
                 
-            case 2:
-                if ( value < 0 )
+            case 1:
+                if ( value > 0 )
                     [node runAction:[SCNAction rotateByAngle:moveDiscreet aroundAxis:SCNVector3Make(0, 0, 1) duration:0.1]];//:0.0 y:1 z:0 duration:1]];
                 else
                     [node runAction:[SCNAction rotateByAngle:-moveDiscreet aroundAxis:SCNVector3Make(0, 0, 1) duration:0.1]];
@@ -353,14 +353,14 @@
                     currentPosition.x += moveDiscreet;
                 break;
                 
-            case 1:
+            case 2:
                 if ( value >= 0)
-                    currentPosition.z += moveDiscreet;
-                else
                     currentPosition.z += -moveDiscreet;
+                else
+                    currentPosition.z += +moveDiscreet;
                 break;
                 
-            case 2:
+            case 1:
                 if ( value >= 0)
                     currentPosition.y += -moveDiscreet;
                 else

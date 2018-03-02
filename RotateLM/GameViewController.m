@@ -10,11 +10,17 @@
 #import <SpriteKit/SpriteKit.h>
 #import <Foundation/Foundation.h>
 
+//#import "VTKModel.h"
+#import "VTKRendererWindow.h"
+
+
 
 
 
 @implementation GameViewController {
     LeapListenerClass *leapListener;
+    VTKRendererWindow *vtkWindow;
+   
 }
 
 - (void)viewDidLoad
@@ -159,6 +165,13 @@
     //-------- Leap Motion
     leapListener = [[LeapListenerClass alloc] init];
     [leapListener run];
+    
+    //----- VTK
+//   vtkWindow = [[VTKRendererWindow alloc] initWithWindowNibName:@"VTKRendererWindow"];
+//    [vtkWindow showWindow:nil];
+//    [vtkWindow drawModel];
+
+    
     
     
 }

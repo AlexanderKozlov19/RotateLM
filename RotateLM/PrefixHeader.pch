@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  RotateLM
+//
+//  Created by Alexander Kozlov on 26.02.2018.
+//  Copyright © 2018 eCozy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define vtkRenderingCore_AUTOINIT 4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)
+#define vtkRenderingVolume_AUTOINIT 1(vtkRenderingVolumeOpenGL)
+
+#endif /* PrefixHeader_pch */
